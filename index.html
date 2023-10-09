@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./scss/main.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>SCSS</title>
+  </head>
+  <body>
+    <!--!<<<<<< Header>>>>>>> -->
+    <header>
+      <nav class="navbar container">
+        <!-- Navbar üst kısım (küçük ekran) -->
+        <div class="navbar-top">
+          <div class="logo"><img src="./images/logo.png" /></div>
+          <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <!-- Navbar üst kısım bitiş (küçük ekran) -->
+
+        <ul class="nav-list">
+          <li><a href="#">Ana Sayfa</a></li>
+          <li><a href="#">Hakkımızda</a></li>
+          <li><a href="#">Hizmetler</a></li>
+        </ul>
+        <div class="navbar-button">
+          <div class="btn">Yardım Al</div>
+        </div>
+      </nav>
+    </header>
+    <!-- header bitiş -->
+    <!-- küçük ekran menüsü -->
+    <div class="sidebar">
+      <ul class="nav-list">
+        <li><a href="#">Ana Sayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Hizmetler</a></li>
+      </ul>
+    </div>
+    <!-- küçük ekran menüsü -->
+
+    <!-- Site içerik alanı -->
+    <main>
+      <!-- Banner bölümü -->
+      <section class="banner">
+        <div class="container">
+          <!-- Banner Content -->
+          <div class="banner-content">
+            <h2>Yaratıcı Uygulamanızı Tanıyın</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ex
+              doloremque excepturi unde mollitia esse.
+            </p>
+            <div class="btn">İndir</div>
+          </div>
+          <!-- Banner Resim -->
+          <div class="banner-image">
+            <img src="./images/pc-banner.png" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Hakkımızda Alanı -->
+      <section class="about">
+        <div class="about-items container">
+          <!-- Her bir tekrar eden alan -->
+          <div class="about-item">
+            <!-- İçerik Alanı -->
+            <div class="about-item-content">
+              <h1>Benzersiz Uygulaman Farklı Yenilikler</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusantium ratione eveniet veniam unde animi recusandae
+                corrupti eum rem earum cum!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam, minima.
+              </p>
+            </div>
+            <!-- İçerik Alanı -->
+            <!-- Resim Alanı -->
+            <div class="about-item-image">
+              <img src="./images/ser1.png" alt="" />
+            </div>
+            <!-- Resim Alanı -->
+          </div>
+          <!-- Her bir tekrar eden alan -->
+          <!-- Her bir tekrar eden alan -->
+          <div class="about-item">
+            <!-- İçerik Alanı -->
+            <div class="about-item-content">
+              <h1>Benzersiz Uygulaman Farklı Yenilikler</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusantium ratione eveniet veniam unde animi recusandae
+                corrupti eum rem earum cum!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam, minima.
+              </p>
+            </div>
+            <!-- İçerik Alanı -->
+            <!-- Resim Alanı -->
+            <div class="about-item-image">
+              <img src="./images/ser2.png" alt="" />
+            </div>
+            <!-- Resim Alanı -->
+          </div>
+          <!-- Her bir tekrar eden alan -->
+          <!-- Her bir tekrar eden alan -->
+          <div class="about-item">
+            <!-- İçerik Alanı -->
+            <div class="about-item-content">
+              <h1>Benzersiz Uygulaman Farklı Yenilikler</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Accusantium ratione eveniet veniam unde animi recusandae
+                corrupti eum rem earum cum!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quibusdam, minima.
+              </p>
+            </div>
+            <!-- İçerik Alanı -->
+            <!-- Resim Alanı -->
+            <div class="about-item-image">
+              <img src="./images/ser3.png" alt="" />
+            </div>
+            <!-- Resim Alanı -->
+          </div>
+          <!-- Her bir tekrar eden alan -->
+        </div>
+      </section>
+      <!-- Hakkımızda Alanı -->
+
+      <!-- Features Alanı Başlangıç -->
+
+      <section class="features">
+        <div class="container">
+          <!-- Bölüm başlığı -->
+          <h1 class="section-title center">Yenilikçi Hizmetler</h1>
+          <!-- Bölüm başlığı -->
+          <!-- Üç Sutunlu yapıyı sağlayan -->
+          <div class="features-grid">
+            <!-- Liste Sutunu -->
+            <div class="features-list">
+              <!-- Her Bir feature parçası -->
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <i class="fa-brands fa-wordpress"></i>
+                </div>
+                <div class="features-item-description">
+                  <h4>WordPress Yükleme</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sit, neque.
+                  </p>
+                </div>
+              </div>
+              <!-- Her Bir feature parçası -->
+              <!-- Her Bir feature parçası -->
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="features-item-description">
+                  <h4>WordPress Yükleme</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sit, neque.
+                  </p>
+                </div>
+              </div>
+              <!-- Her Bir feature parçası -->
+              <!-- Her Bir feature parçası -->
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <div class="features-item-description">
+                  <h4>WordPress Yükleme</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sit, neque.
+                  </p>
+                </div>
+              </div>
+              <!-- Her Bir feature parçası -->
+              <!-- Her Bir feature parçası -->
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <i class="fa-solid fa-cloud-arrow-up"></i>
+                </div>
+                <div class="features-item-description">
+                  <h4>WordPress Yükleme</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sit, neque.
+                  </p>
+                </div>
+              </div>
+              <!-- Her Bir feature parçası -->
+            </div>
+            <!-- Liste Sutunu -->
+            <!-- Liste Sutunu -->
+            <div class="features-list">
+              <!-- Her Bir feature parçası -->
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <i class="fa-solid fa-swatchbook"></i>
+                </div>
+                <div class="features-item-description">
+                  <h4>WordPress Yükleme</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sit, neque.
+                  </p>
+                </div>
+              </div>
+              <!-- Her Bir feature parçası -->
+              <!-- Her Bir feature parçası -->
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <i class="fa-solid fa-file"></i>
+                </div>
+                <div class="features-item-description">
+                  <h4>WordPress Yükleme</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sit, neque.
+                  </p>
+                </div>
+              </div>
+              <!-- Her Bir feature parçası -->
+              <!-- Her Bir feature parçası -->
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <i class="fa-solid fa-money-check"></i>
+                </div>
+                <div class="features-item-description">
+                  <h4>WordPress Yükleme</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sit, neque.
+                  </p>
+                </div>
+              </div>
+              <!-- Her Bir feature parçası -->
+              <!-- Her Bir feature parçası -->
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <i class="fa-brands fa-windows"></i>
+                </div>
+                <div class="features-item-description">
+                  <h4>WordPress Yükleme</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Sit, neque.
+                  </p>
+                </div>
+              </div>
+              <!-- Her Bir feature parçası -->
+            </div>
+            <!-- Liste Sutunu -->
+            <!-- Resim Sutunu -->
+            <div class="feature-image">
+              <img src="./images/application_screen.png" alt="" />
+            </div>
+            <!-- Resim Sutunu -->
+          </div>
+          <!-- Üç Sutunlu yapıyı sağlayan -->
+        </div>
+      </section>
+
+      <!-- Features Alanı Bitiş -->
+    </main>
+    <!-- Site içerik alanı -->
+
+    <!-- Footer Alanı Başlangıç -->
+
+    <footer class="footer">
+      <div class="footer-top container">
+        <!-- logo bölümü -->
+        <div class="footer-item brand">
+          <img src="./images/logo.png" alt="" class="footer-logo" />
+        </div>
+        <!-- logo bölümü -->
+        <!-- tweet bölümü -->
+        <div class="footer-item">
+          <h3>Twitter'da Biz</h3>
+          <p>
+            <i class="fa-brands fa-twitter"></i> Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Animi aliquid voluptates neque iusto
+            laborum consequatur. Ipsum dolor eius iure consectetur?
+          </p>
+          <br />
+          <p>
+            <i class="fa-brands fa-twitter"></i> Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Animi aliquid voluptates neque iusto
+            laborum consequatur. Ipsum dolor eius iure consectetur?
+          </p>
+        </div>
+        <!-- tweet bölümü -->
+        <!-- sosyal bölümü -->
+        <div class="footer-item social">
+          <h3>Sosyal Medya Hesaplarımız</h3>
+          <ul>
+            <li><i class="fa-brands fa-facebook"></i> 250 Likes</li>
+            <li><i class="fa-brands fa-github"></i> 50+ Projects</li>
+            <li><i class="fa-brands fa-instagram"></i> 1268 Followers</li>
+            <li><i class="fa-brands fa-pinterest"></i> 2412+ Pins</li>
+          </ul>
+        </div>
+        <!-- sosyal bölümü -->
+        <!-- Blog bölümü -->
+
+        <div class="footer-item blog">
+          <h3>Blog Yazılarımız</h3>
+          <div class="posts">
+            <div class="post">
+              <img src="./images/scr1.png" alt="" />
+              <div class="post-info">
+                <p class="post-date">8 Ekim 2023</p>
+                <p class="post-head">Anlamsız Bir Pazar</p>
+              </div>
+            </div>
+            <div class="post">
+              <img src="./images/scr2.png" alt="" />
+              <div class="post-info">
+                <p class="post-date">8 Ekim 2023</p>
+                <p class="post-head">Anlamsız Bir Pazar</p>
+              </div>
+            </div>
+            <div class="post">
+              <img src="./images/scr3.png" alt="" />
+              <div class="post-info">
+                <p class="post-date">8 Ekim 2023</p>
+                <p class="post-head">Anlamsız Bir Pazar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog bölümü -->
+      </div>
+      <div class="footer-bottom">
+        <p>@ogretmenbabis #byAhmet</p>
+      </div>
+    </footer>
+
+    <!-- Footer Alanı Bitiş -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
