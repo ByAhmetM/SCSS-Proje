@@ -183,6 +183,7 @@ header .navbar .navbar-button .btn {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(1, 1fr);
+  padding: 70px 0;
 }
 @media (min-width: 768px) {
   .banner .container {
